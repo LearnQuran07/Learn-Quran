@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Quran Teaching Platform</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-green-700 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold text-center">Quran Learning Academy</h1>
+    <p class="text-center mt-2">Online Quran Teaching via Skype, Zoom, or Microsoft Teams</p>
+  </header>
+
+  <main class="p-6 max-w-5xl mx-auto">
+    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-xl font-semibold mb-4">Why Choose Us?</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Qualified male and female Quran teachers</li>
+        <li>Flexible class timings to suit all time zones</li>
+        <li>One-on-one personalized sessions</li>
+        <li>Regular progress tracking and feedback</li>
+      </ul>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-xl font-semibold mb-4">Courses Offered</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Noorani Qaida</li>
+        <li>Basic Quran Reading</li>
+        <li>Tajweed (Pronunciation Rules)</li>
+        <li>Hifz (Memorization)</li>
+        <li>Translation & Tafsir</li>
+      </ul>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-xl font-semibold mb-4">Meet Our Teachers</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <h3 class="font-bold">Ustadh Ahmed</h3>
+          <p>10+ years of experience | Tajweed Specialist</p>
+        </div>
+        <div>
+          <h3 class="font-bold">Ustadha Fatima</h3>
+          <p>Hafiza | Expert in Quran for Kids and Beginners</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-xl font-semibold mb-4">How to Join</h2>
+      <p class="mb-2">1. Fill out the registration form below.</p>
+      <p class="mb-2">2. Choose your preferred platform (Skype / Zoom / Microsoft Teams).</p>
+      <p class="mb-2">3. We will contact you to schedule your free trial class.</p>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-xl font-semibold mb-4">Register Now</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Full Name" class="w-full border border-gray-300 p-2 rounded" required />
+        <input type="email" placeholder="Email Address" class="w-full border border-gray-300 p-2 rounded" required />
+        <input type="tel" placeholder="Phone / WhatsApp" class="w-full border border-gray-300 p-2 rounded" required />
+        <select class="w-full border border-gray-300 p-2 rounded">
+          <option selected disabled>Select Platform</option>
+          <option>Skype</option>
+          <option>Zoom</option>
+          <option>Microsoft Teams</option>
+        </select>
+        <textarea placeholder="Preferred Time and Notes" class="w-full border border-gray-300 p-2 rounded"></textarea>
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <a href="https://wa.me/923001234567" target="_blank" class="whatsapp-float">
+    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Chat on WhatsApp">
+  </a>
+
+  <footer class="text-center text-sm text-gray-600 mt-6 mb-4">
+    &copy; 2025 Quran Learning Academy. All rights reserved.
+  </footer>
+</body>
+</html>
